@@ -1,0 +1,177 @@
+/* Home.css */
+.hometop-container {
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: #224952;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.hometop-container h3 {
+  margin-left: 120px;
+  color: white;
+}
+.hometop-container a {
+  text-decoration: none;
+  color: black;
+}
+.home-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px; /* Add some spacing between links */
+}
+.home-links a:hover {
+  color: yellow;
+}
+.gotologin {
+  border-color: blue;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.gotologin:hover {
+  background-color: blue;
+  color: white;
+}
+/*................home container.........*/
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  height: 100vh;
+}
+.home-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-paragraph {
+  padding-left: 120px;
+  text-align: left;
+}
+.home-header {
+  margin-bottom: 1rem;
+  margin-right: 190px;
+}
+.home-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 360px;
+  margin-left: 200px;
+  transition: transform 0.3s;
+}
+.home-img:hover {
+  transform: scale(1.02);
+}
+/*.............about us ...........*/
+.aboutus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  background-color: #f4f4f4;
+}
+.aboutus-img {
+  width: 400px;
+  height: auto;
+  border-radius: 360px;
+  margin-top: 30px;
+  margin-left: 120px;
+  transition: transform 0.3s;
+}
+.aboutus-img:hover {
+  transform: scale(1.02);
+}
+.aboutus-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.aboutus-container h2 {
+  padding-top: 60px;
+  margin-left: 50px;
+}
+/*...........contacts.............*/
+.contact-container {
+  background-color: #f4f4f4;
+  padding-top: 250px;
+  font-size: 20px;
+}
+.contact-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+  padding-top: 180px;
+  padding-left: 150px;
+}
+.home-contact-img {
+  width: 400px;
+  border-radius: 300px;
+  margin-left: 150px;
+  margin-top: 90px;
+  padding-bottom: 50px;
+  transition: transform 0.3s;
+}
+.home-contact-img:hover {
+  transform: scale(1.02);
+}
+
+.social-icon {
+  font-size: 45px;
+  margin-right: 12px;
+  transition: transform 0.3s;
+}
+.social-icon:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+/*..................Team Members...........*/
+.members-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+.members-container h3 {
+  padding-bottom: 50px;
+}
+.members-container h5 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.Bhuwan,
+.Bibek,
+.Kumar,
+.Yujin {
+  width: 200px;
+  border-radius: 350px;
+}
+/* ...........transition effect to members photos......... */
+.member {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.member:hover {
+  transform: scale(1.02); /* Grow by 2% when hovering */
+  cursor: pointer;
+}
+#copyright {
+  text-align: center;
+  padding-top: 30px;
+}
